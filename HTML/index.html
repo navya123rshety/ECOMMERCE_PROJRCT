@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
+    <link href="../CSS/style.css" rel="stylesheet"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!--Header-->
     <header>
         <nav>
-            <a href="">Shopping Cart</a>
+            <a href="#">Shopping Cart</a>
         </nav>
-        <i class="bx bx-shopping-bag"></i>
+        <i class="bx bx-shopping-bag" id="cart-icon",data-quantity="0"></i>
     </header>
     <!--Shopping Section-->
     <section>
@@ -20,53 +21,74 @@
             <h2>Shopping product</h2>
             <!--Content-->
         </div>
-        <div>
+        <div class="row">
+            <div class="column">
             <img src="shopp.webp" height="300px" alt="Image Not Found"/>
             <h3>FERRERO ROCHER</h3>
             <span>rupee 1200</span>
             <i class="bx bx-shopping-bag"></i>
+            </br>
+            <button type="button" class="button">Add to cart</button>
         </div>
-        <div>
-            <img src="shopsy.webp"height="300px" alt="Image Not Found"/>
+        <div class="column">
+            <img src="shopsy.webp" height="300px" alt="Image Not Found"/>
             <h3>DRY FRUIT HALWA</h3>
             <span>rupee 1500</span>
             <i class="bx bx-shopping-bag"></i>
-        </div>
-        <div>
+        </br>
+        <button type="button" class="button">Add to cart</button>
+    </div>
+    <div class="column">
             <img src="SHOPPING.webp" height="300px" alt="Image Not Found"/>
             <h3>CADBURY DAIRY MILK</h3>
             <span>rupee 800</span>
             <i class="bx bx-shopping-bag"></i>
+    </br>
+    <button type="button" class="button">Add to cart</button>
         </div>
-        <div>
+        </div>
+        <br></br>
+        <div class="row">
+            <div class="column">
             <img src="shopping (1).webp" height="300px" alt="Image Not Found"/>
             <h3>RAJASTHANI PEDA</h3>
             <span>rupee 800</span>
             <i class="bx bx-shopping-bag"></i>
+            </br>
+            <button type="button" class="button">Add to cart</button>
         </div>
-        <div>
+        <div class="column">
             <img src="shopping (2).webp" height="300px" alt="Image Not Found"/>
             <h3>DARK FANTASY BISCUIT</h3>
             <span>rupee 800</span>
             <i class="bx bx-shopping-bag"></i>
+        </br>
+        <button type="button" class="button">Add to cart</button>
         </div>
-        <div>
+        <div class="column">
             <img src="shopping (3).webp" height="300px" alt="Image Not Found"/>
             <h3>COCNUT BURFI</h3>
             <span>rupee 800</span>
             <i class="bx bx-shopping-bag"></i>
+        </br>
+        <button type="button" class="button">Add to cart</button>
         </div>
-        <div>
+        <div class="column">
             <img src="shopr.webp" height="300px" alt="Image Not Found"/>
             <h3>DRY FRUITS</h3>
             <span>rupee 800</span>
             <i class="bx bx-shopping-bag"></i>
+        </br>
+        <button type="button" class="button">Add to cart</button>
         </div>
-        <div>
+        <div class="column">
             <img src="shoppingg.webp" height="300px" alt="Image Not Found"/>
             <h3>RED VELVET CAKE</h3>
             <span>rupee 800</span>
             <i class="bx bx-shopping-bag"></i>
+        </br>
+        <button type="button" class="button">Add to cart</button>
+            </div>
         </div>
         
     </section>
