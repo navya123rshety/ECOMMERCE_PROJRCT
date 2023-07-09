@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
 *{
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
   margin:0;
   padding:0;
 
@@ -35,11 +36,69 @@ img{
   text-align: center;
 }
 .navbar{
+    display:flex;
     color:brown;
     justify-content:space-between;
+    height: 80px;
+    padding: 5px 60px;
 }
 .shop-product{
     color:blue;
     text-align:center;
     font-family: 'Poppins', sans-serif
+}
+.cart-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+#cart-items {
+  margin-bottom: 10px;
+  background-color: purple;
+}
+
+#subtotal {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#checkout-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#checkout-btn:hover {
+  background-color: purple;
+}
+/* styles.css */
+input {
+padding: 6px;
+width: 200px;
+margin: 8px;
+font-weight: bold;
+ border-color: black;
+align-items: last baseline;
+background-color:purple;
+}
+
+#searchResults {
+margin-top: 10px;
+}
+
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' purple,
+'wght' 400,
+'GRAD' 0,
+'opsz' 48
 }
